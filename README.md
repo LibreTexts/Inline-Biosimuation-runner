@@ -1,7 +1,10 @@
 # Inline Biosimulation Runner
 This React project allows users to manipulate the initialAmounts of Species in a COMBINE (.omex) file.
 The modified COMBINE file can then be run using the runBioSimulations API.
-Lastly, the results are retrieved and then plotted using Charts.js
+Lastly, the results are retrieved and then plotted using Charts.js.
+
+![image](https://user-images.githubusercontent.com/12994749/112573536-be804980-8da9-11eb-9233-22ac3caa2ffe.png)
+
 
 ## CORS issues
 Currently, the runBioSimulationsAPI does not include an `access-control-allow-origin` header, which prevents the tool from directly calling https://run.biosimulations.org/ APIs.
